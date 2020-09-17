@@ -13,10 +13,12 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Node.js):
 | Activity | Tool Used | Tool Location | Target User | Notes |
 | -------- | --------- | ------------- | ----------- | ----- |
 | Feature requests | | | | |
-| Bug reports | GitHub Issues | https://github.com/nodejs/node/issues | Users and Contributors | "Report issue" and "Get help" are easily accessible on the project home page at ``nodejs.org`` |
+| Bug reports | GitHub Issues | https://github.com/nodejs/node/issues | Users, contributors, and project maintainers | "Report issue" and "Get help" are easily accessible on the project home page at ``nodejs.org`` |
 | Documentation | | | | |
 | Team communication | | | | |
 | Planning & goal setting | | | | |
 | Build tools | | | | |
-| Governance | | | | |
-| News & marketing | | | | |
+| Localization | Crowdin | https://crowdin.com/project/nodejs-website | International community members and the localization team | Moving to Crowdin seems like [a relatively recent infrastructural decision](https://github.com/nodejs/nodejs.org/blob/master/TRANSLATION.md) |
+| Project website | Jekyl (??) | https://jekyllrb.com/ | Current and potential users, and website steering committee |  |
+| Governance | GitHub | https://github.com/nodejs/community-committee | [Contributors](https://nodejs.org/en/about/community/#contributors-and-collaborators) and [project members](https://nodejs.org/en/about/community/#observers-and-membership) | The Community Committee (or "CommComm") is a principal governing body in Node.js. It appears to conduct most of its work via GitHub. |
+| News & marketing | Medium | https://medium.com/the-node-js-collection | Users and potential contributors |  |
