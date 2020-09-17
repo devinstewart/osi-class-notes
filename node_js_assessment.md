@@ -13,9 +13,10 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Node.js):
 | Activity | Tool Used | Tool Location | Target User | Notes |
 | -------- | --------- | ------------- | ----------- | ----- |
 | Feature requests | | | | |
+| Bug reports | GitHub Issues | https://github.com/nodejs/node/issues | Users and Contributors | "Report issue" and "Get help" are easily accessible on the project home page at ``nodejs.org`` |
 | Documentation | | | | |
 | Team communication | | | | |
-| Planning and goal setting | | | | |
+| Planning & goal setting | | | | |
 | Build tools | | | | |
 | Governance | | | | |
-| News & Marketing | | | | |
+| News & marketing | | | | |
