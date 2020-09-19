@@ -13,14 +13,14 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Node.js):
 | Activity | Tool Used | Tool Location | Target User | Notes |
 | -------- | --------- | ------------- | ----------- | ----- |
 | Bug reports & Feature requests | GitHub Issues | https://github.com/nodejs/node/issues | Users, contributors, and project maintainers | Bugs / Features are all maintained in GitHub Issues and separated via labels |
-| Documentation | GitHub Flavored Markdown & Website| https://github.github.com/gfm/ https://github.com/nodejs/node/tree/master/doc https://nodejs.org/en/docs/ | Users, contributors, and project maintainers | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
+| Documentation | GitHub Flavored Markdown & Website| https://github.github.com/gfm/  https://github.com/nodejs/node/tree/master/doc  https://nodejs.org/en/docs/ | Users, contributors, and project maintainers | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
 | Team communication | IRC | Freenode | Users, current and prospective contributors | Located in ``#node.js`` on ``irc.freenode.net`` |
 | Team communication | Discord | https://discordapp.com/invite/vUsrbjd | Users, current and prospective contributors | Seems to be reserved primarily for "backend developers" |
 | Planning & goal setting | | | | |
 | Build tools | | | | |
 | Localization | Crowdin | https://crowdin.com/project/nodejs-website | International community members and the localization team | Moving to Crowdin seems like [a relatively recent infrastructural decision](https://github.com/nodejs/nodejs.org/blob/master/TRANSLATION.md) |
 | Project website | Metalsmith | https://metalsmith.io/ | Current and potential users, and website steering committee | The Node.JS website is created using a tool that runs in Node.JS |
-| Governance | GitHub | https://github.com/nodejs/community-committee | [Contributors](https://nodejs.org/en/about/community/#contributors-and-collaborators) and [project members](https://nodejs.org/en/about/community/#observers-and-membership) | The Community Committee (or "CommComm") is a principal governing body in Node.js. It appears to conduct most of its work via GitHub. |
+| Governance | GitHub | https://github.com/nodejs/community-committee | [Contributors](https://nodejs.org/en/about/community/#contributors-and-collaborators) and [project members](https://nodejs.org/en/about/community/#observers-and-membership) | The Community Committee (or "CommComm") is a principal governing body in Node.js; it appears to conduct most of its work via GitHub |
 | Community outreach | Slack | https://www.nodeslackers.com/ | Users, current and prospective contributors | |
 | News & marketing | Medium | https://medium.com/the-node-js-collection | Users and potential contributors |  |
 | News & marketing | Twitter | https://twitter.com/nodejs | Users and potential contributors |  |
