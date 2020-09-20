@@ -16,7 +16,6 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Node.js):
 | Documentation | GitHub Flavored Markdown & Website| https://github.github.com/gfm/  https://github.com/nodejs/node/tree/master/doc  https://nodejs.org/en/docs/ | Users, contributors, and project maintainers | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
 | Team communication | IRC | Freenode | Users, current and prospective contributors | Located in ``#node.js`` on ``irc.freenode.net`` |
 | Team communication | Discord | https://discordapp.com/invite/vUsrbjd | Users, current and prospective contributors | Seems to be reserved primarily for "backend developers" |
-| Planning & goal setting | | | | |
 | Build tools | | | | |
 | Localization | Crowdin | https://crowdin.com/project/nodejs-website | International community members and the localization team | Moving to Crowdin seems like [a relatively recent infrastructural decision](https://github.com/nodejs/nodejs.org/blob/master/TRANSLATION.md) |
 | Project website | Metalsmith | https://metalsmith.io/ | Current and potential users, and website steering committee | The Node.JS website is created using a tool that runs in Node.JS |
