@@ -12,14 +12,9 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Node.js):
 
 | Activity | Tool Used | Tool Location | Target User | Notes |
 | -------- | --------- | ------------- | ----------- | ----- |
-<<<<<<< HEAD
 | Bug reports & Feature requests | GitHub Issues | https://github.com/nodejs/node/issues | Users, contributors, and project maintainers | Bugs / Features are all maintained in GitHub Issues and separated via labels. |
 | Secuirty | HackerOne | https://hackerone.com/nodejs https://nodejs.org/en/security/ | Users, contributors, and project maintainers | For security related issues, the Node.JS requests using HackerOne.  Use of this tool and feeback is outlined on the [website](https://nodejs.org/en/security/). |
 | Documentation | GitHub Flavored Markdown & Website| https://github.github.com/gfm/ https://github.com/nodejs/node/tree/master/doc https://nodejs.org/en/docs/ | Users, contributors, and project maintainers | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
-=======
-| Bug reports & Feature requests | GitHub Issues | https://github.com/nodejs/node/issues | Users, contributors, and project maintainers | Bugs / Features are all maintained in GitHub Issues and separated via labels |
-| Documentation | GitHub Flavored Markdown & Website| https://github.github.com/gfm/  https://github.com/nodejs/node/tree/master/doc  https://nodejs.org/en/docs/ | Users, contributors, and project maintainers | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
->>>>>>> 7079cf0a983b75b7d3c5ea2bb06b86705edc3f34
 | Team communication | IRC | Freenode | Users, current and prospective contributors | Located in ``#node.js`` on ``irc.freenode.net`` |
 | Team communication | Discord | https://discordapp.com/invite/vUsrbjd | Users, current and prospective contributors | Seems to be reserved primarily for "backend developers" |
 | Build tools | | | | |
