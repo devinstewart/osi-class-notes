@@ -10,7 +10,10 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Node.js):
 ## Project governance
 
 ### Governance model
-The Node.js project operates with [a hybrid governance model](https://www.redhat.com/en/resources/guide-to-open-source-project-governance-models-overview?source=resourcelisting&f%5B0%5D=taxonomy_topic%3AOpen+source+communities): one part foundation-backed, one part electoral. The [OpenJS Foundation](https://openjsf.org/) (a Linux Foundation project) oversees business and legal aspects of the project; the [Community Committee](https://github.com/nodejs/community-committee/blob/master/Community-Committee-Charter.md#community-committee-charter) (or "CommComm") overseas technical aspects of the project, which operates [through elections](https://github.com/nodejs/community-committee/blob/master/Community-Committee-Charter.md#section-6-elections).
+The Node.js project operates with [a hybrid governance model](https://www.redhat.com/en/resources/guide-to-open-source-project-governance-models-overview?source=resourcelisting&f%5B0%5D=taxonomy_topic%3AOpen+source+communities): one part foundation-backed, one part electoral. The [OpenJS Foundation](https://openjsf.org/) (a Linux Foundation project) oversees business and legal aspects of the project, and operates through a [Technical Steering Committee](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md) (TSC) that runs its own [electoral processes](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md#section-6-elections); the [Community Committee](https://github.com/nodejs/community-committee/blob/master/Community-Committee-Charter.md#community-committee-charter) (or "CommComm"), which operates [through elections](https://github.com/nodejs/community-committee/blob/master/Community-Committee-Charter.md#section-6-elections) overseas technical aspects of the project.
+
+### Decision-making processes
+The TSC makes decisions both through [lazy consensus and votes requiring simple majority](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md#section-7-voting).
 
 ### Community roles and responsibilities
 The Node.js project features four principal roles participants can play:
@@ -25,12 +28,9 @@ According to the project's [governance documents](https://nodejs.org/en/about/co
 
 Additional detail is available in [a GitHub repository](https://github.com/nodejs/community-committee/tree/master/governance).
 
-### Decision-making processes
-
-
 ## Infrastructure audit
-| Activity | Tool Used | Tool Location | Target Role | Notes |
-| -------- | --------- | ------------- | ----------- | ----- |
+| Activity | Tool Used | Tool Location | Target Project Role | Notes |
+| -------- | --------- | ------------- | ------------------- | ----- |
 | Bug reports & Feature requests | GitHub Issues | https://github.com/nodejs/node/issues | All | Bugs / Features are all maintained in GitHub Issues and separated via labels. |
 | Secuirty | HackerOne | https://hackerone.com/nodejs https://nodejs.org/en/security/ | Users, contributors, and project maintainers | For security related issues, the Node.JS requests using HackerOne. Use of this tool and feeback is outlined on the [website](https://nodejs.org/en/security/). |
 | Documentation | GitHub Flavored Markdown & Website| https://github.github.com/gfm/ https://github.com/nodejs/node/tree/master/doc https://nodejs.org/en/docs/ | Users, contributors, and project maintainers | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
