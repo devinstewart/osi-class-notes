@@ -44,5 +44,5 @@ Node.js seems to have a reputation as a project with a "[liberal contribution mo
 | Project website | Metalsmith | https://metalsmith.io/ | Collaborator, Observer, Member (specifically on [website working group](https://github.com/nodejs/nodejs.dev)) | The Node.JS website is created using a tool that runs in Node.JS |
 | Governance | GitHub | https://github.com/nodejs/community-committee | Members | The Community Committee (or "CommComm") is a principal governing body in Node.js; it appears to conduct most of its work via GitHub |
 | Community outreach | Slack | https://www.nodeslackers.com/ | All | "Anyone with any amount of interest in Node.js is welcome to join." |
-| News and marketing | Medium | https://medium.com/the-node-js-collection |  |  |
-| News and marketing | Twitter | https://twitter.com/nodejs |  |  |
+| News and marketing | Medium | https://medium.com/the-node-js-collection | Collaborator, Observer, Member (specifically on [evangelism working group](https://nodejs.org/en/about/working-groups/#evangelism)) |  |
+| News and marketing | Twitter | https://twitter.com/nodejs | Collaborator, Observer, Member (specifically on [evangelism working group](https://nodejs.org/en/about/working-groups/#evangelism)) |  |
