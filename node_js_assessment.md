@@ -15,6 +15,7 @@ The Node.js project operates with a hybrid governance model: one part foundation
 ### Decision-making processes
 The TSC makes decisions both through [lazy consensus and votes requiring simple majority](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md#section-7-voting). The CommComm's process differs slighty (at least [as described](https://github.com/nodejs/community-committee/blob/master/CONTRIBUTING.md#the-commcomm-process)):
 > The group tries to find a resolution that has no open objections among the CommComm members. If a consensus cannot be reached that has no objections then a majority wins vote is called. It is also expected that the majority of decisions made by the CommComm are via a consensus seeking process and that voting is only used as a last-resort. Resolution may involve returning the issue to collaborators with suggestions on how to move forward towards a consensus. It is not expected that a meeting of the CommComm will resolve all issues on its agenda during that meeting and may prefer to continue the discussion happening among the collaborators.
+The CommComm gathers twice per month for synchronous meetings (Observers, of course, are also in attendance).
 
 ### Community roles and responsibilities
 The Node.js project features four principal roles participants can play:
@@ -28,6 +29,8 @@ According to the project's [governance documents](https://nodejs.org/en/about/co
 > A **Contributor** is any individual creating or commenting on an issue or pull request. A **Collaborator** is a contributor who has been given write access to the repository. An **Observer** is any individual who has requested or been requested to attend a CommComm meeting. It is also the first step to becoming a Member. A **Member** is a collaborator with voting rights who has met the requirements of participation and voted in by the CommComm voting process.
 
 Additional detail is available in [a GitHub repository](https://github.com/nodejs/community-committee/tree/master/governance).
+
+Node.js seems to have a reputation as a project with a "[liberal contribution model](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)" (as noted above, the community considers a "contributor" anyone who has done so much as left a comment or opened an issue). Much of its project infrastructure is therefore accessible to a majority of project participants.
 
 ## Infrastructure audit
 | Activity | Tool Used | Tool Location | Target Project Role | Notes |
