@@ -1,0 +1,38 @@
+History:
+
+To better understand the Node.js governance, knowing a bit about its history is helpful.
+
+It was first in May 2009 by Ryan Dahl
+
+In November 2010 Dahl announced that he had reached an agreement with Joyent to handle its governance.
+
+In December 2014 a group of developers decided fork Node.JS and release it as io.js. This was due to an internal conflict over Joyent's governance.  io.js was created as an open governance alternative with a separate technical committee. Unlike Node.js, the authors planned to keep io.js up to date with the latest releases of the Google V8 JavaScript engine.
+
+In February 2015, the intent to form a neutral Node.js Foundation was announced. By June 2015, the Node.js and io.js communities voted to work together under the Node.js Foundation.
+
+In September 2015, Node.js v0.12 and io.js v3.3 were merged back together into Node v4.0.  It was this release that introduced the governance model to the average to the average Node.js user.
+
+In 2019, the JS Foundation and Node.js Foundation merged to form the OpenJS Foundation.  Under the OpenJS Foundation, Node.js is one of many projects (30 at my last count).  It is listed as one of their six “Impact Projects”.  The over five are: Appium, jQuery, Dojo, Electron, and webpack.
+
+
+Current Governance:
+
+Governance is agreed upon by a TCS. In fact, they have their own repository https://github.com/nodejs/TSC.
+
+Governance around being involved in the core Node.js module is found here: https://github.com/nodejs/node/blob/master/GOVERNANCE.md This is the document that refers to collaborators and non-collaborators.  I read non-collaborator as open to anybody who wants to open an issue or submit a pull request.
+
+Then to tie this mash of stuff all together there are three subsections under the “About” tag on the website:
+
+https://nodejs.org/en/about/governance/  - A high level explanation of the TCS and CommComm
+https://nodejs.org/en/about/community/ - Details about the CommComm.  They also have their own repository.
+https://nodejs.org/en/about/working-groups/ - A list of working groups created by the TCS.  I did not check all, but it appears each WG has its own repository complete with a README.md, GOVERNANCE.md, etc…
+
+
+
+
+
+
+
+
+
+
