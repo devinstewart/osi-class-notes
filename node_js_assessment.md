@@ -53,7 +53,7 @@ Node.js seems to have a reputation as a project with a "[liberal contribution mo
 | Documentation | GitHub Flavored Markdown & Website | https://github.github.com/gfm/ https://github.com/nodejs/node/tree/master/doc https://nodejs.org/en/docs/ | Collaborator, Observer, Member (Contributors welcome to leave comments or open a request) | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
 | Team communication | IRC | Freenode | All | Located in ``#node.js`` on ``irc.freenode.net`` |
 | Team communication | Discord | https://discordapp.com/invite/vUsrbjd | All (?) | Seems to be reserved primarily for "backend developers" |
-| Localization | Crowdin | https://crowdin.com/project/nodejs-website | | Moving to Crowdin seems like [a relatively recent infrastructural decision](https://github.com/nodejs/nodejs.org/blob/master/TRANSLATION.md) |
+| Localization | Crowdin | https://crowdin.com/project/nodejs-website | All | Moving to Crowdin seems like [a relatively recent infrastructural decision](https://github.com/nodejs/nodejs.org/blob/master/TRANSLATION.md) |
 | Project website | Metalsmith | https://metalsmith.io/ | Collaborator, Observer, Member (specifically on [website working group](https://github.com/nodejs/nodejs.dev)) | The Node.JS website is created using a tool that runs in Node.JS |
 | Governance | GitHub | https://github.com/nodejs/community-committee | Members | The Community Committee (or "CommComm") is a principal governing body in Node.js; it appears to conduct most of its work via GitHub |
 | Community outreach | Slack | https://www.nodeslackers.com/ | All | "Anyone with any amount of interest in Node.js is welcome to join." |
