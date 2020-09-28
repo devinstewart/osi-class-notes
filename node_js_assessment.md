@@ -45,24 +45,24 @@ Additional detail is available in [a GitHub repository](https://github.com/nodej
 
 Node.js seems to have a reputation as a project with a "[liberal contribution model](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)" (as noted above, the community considers a "contributor" anyone who has done so much as left a comment or opened an issue). Much of its project infrastructure is therefore accessible to a majority of project participants.  This is why in the [Infrastructure audit](#infrastructure-audit) many of the "Target Project Roles" are listed as "All".
 
-#### On the heavy use on GitHub tooling
-According to the [article cited above](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951) on the "liberal contribution model", the decision to continue to use GitHub tooling is intentional:
-> Often the problems the project is facing will be attributed to the tools the project is using, especially GitHub.<br/><br/>In Node.js we had all the same problems, resolved them without a change in tooling, and today manage a growing workload much larger than most projects, and GitHub has not been a bottleneck.
-
-#### On multiple community outreach tools
-Slack, Discord, and IRC are available to the community for participants at all roles, including users. These are all distinct "chat" options, the conversations are not duplicated across the tools. The decision to have three different options represents the community's desire to reach people in whatever tool they prefer.
-
 ## Infrastructure audit
 | Activity | Tool Used | Tool Location | Target Project Role | Notes |
 | -------- | --------- | ------------- | ------------------- | ----- |
 | Bug reports and feature requests | GitHub Issues | https://github.com/nodejs/node/issues | All | Bugs / Features are all maintained in GitHub Issues and separated via labels. |
-| Secuirty | HackerOne | https://hackerone.com/nodejs https://nodejs.org/en/security/ | All | The community takes security seriously.  Therefore, they use [HackerOne](https://hackerone.com/nodejs).  Allowing for a controlled disclosure and bounty rewards. |
+| Secuirty | HackerOne | https://hackerone.com/nodejs https://nodejs.org/en/security/ | All | The community takes security seriously. Therefore, they use [HackerOne](https://hackerone.com/nodejs), allowing for controlled disclosure and bounty rewards. |
 | Documentation | GitHub Flavored Markdown & Website | https://github.github.com/gfm/ https://github.com/nodejs/node/tree/master/doc https://nodejs.org/en/docs/ | All | Documentation is maintained using GFM and accessed by most users via the [website](https://nodejs.org/dist/latest-v14.x/docs/api/). |
-| Localization | Crowdin | https://crowdin.com/project/nodejs-website | All | Moving to Crowdin seems like [a relatively recent infrastructural decision](https://github.com/nodejs/nodejs.org/blob/master/TRANSLATION.md) |
-| Project website | Metalsmith | https://metalsmith.io/ | Collaborator, Observer, Member (specifically on [website working group](https://github.com/nodejs/nodejs.dev)) | An initiative of a website redesign is underway.  The new site is located at https://nodejs.dev.  At this time most things link back to https://nodejs.org |
+| Localization | Crowdin | https://crowdin.com/project/nodejs-website | All | Moving to Crowdin seems like [a relatively recent infrastructural decision](https://github.com/nodejs/nodejs.org/blob/master/TRANSLATION.md). |
+| Project website | Metalsmith | https://metalsmith.io/ | Collaborator, Observer, Member (specifically on [website working group](https://github.com/nodejs/nodejs.dev)) | An initiative of a website redesign is underway. The new site is located at ``https://nodejs.dev``.  At this time most things link back to ``https://nodejs.org``. |
 | Governance | GitHub | https://github.com/nodejs/community-committee | Members | The Community Committee (or "CommComm") is a principal governing body in Node.js; it appears to conduct most of its work via GitHub |
 | Community outreach | Slack | https://www.nodeslackers.com/ | All | "Anyone with any amount of interest in Node.js is welcome to join." |
 | Community outreach | Discord | https://discordapp.com/invite/vUsrbjd | All | Serves a similar function to https://www.nodeslackers.com/ |
 | Community outreach | IRC | https://webchat.freenode.net/#node.js<br/>Any IRC Client on `irc.freenode.net` in the `#node.js` channel. | All | [Mission statement](https://aredridel.dinhe.net/2014/06/15/an-unofficial-mission-statement-for-the-node-js-irc-channel/) (unofficial) in _Topic:_ upon joining the room.<br/><br/>Serves a similar function to https://www.nodeslackers.com/ |
 | News and marketing | Medium | https://medium.com/the-node-js-collection | Collaborator, Observer, Member (specifically on [evangelism working group](https://nodejs.org/en/about/working-groups/#evangelism)) | |
 | News and marketing | Twitter | https://twitter.com/nodejs | Collaborator, Observer, Member (specifically on [evangelism working group](https://nodejs.org/en/about/working-groups/#evangelism)) | |
+
+### On the heavy use on GitHub tooling
+According to the [article cited above](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951) on the "liberal contribution model", the decision to continue to use GitHub tooling is intentional:
+> Often the problems the project is facing will be attributed to the tools the project is using, especially GitHub.<br/><br/>In Node.js we had all the same problems, resolved them without a change in tooling, and today manage a growing workload much larger than most projects, and GitHub has not been a bottleneck.
+
+### On multiple community outreach tools
+Slack, Discord, and IRC are available to the community for participants at all roles, including users. These are all distinct "chat" options, the conversations are not duplicated across the tools. The decision to have three different options represents the community's desire to reach people in whatever tool they prefer.
