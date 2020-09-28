@@ -50,7 +50,7 @@ According to the [article cited above](https://medium.com/the-node-js-collection
 > Often the problems the project is facing will be attributed to the tools the project is using, especially GitHub.<br/><br/>In Node.js we had all the same problems, resolved them without a change in tooling, and today manage a growing workload much larger than most projects, and GitHub has not been a bottleneck.
 
 #### On multiple community outreach tools
-Slack, Discord, and IRC are available to the community for participants at all roles, including users. These are all distinct "chat" options, the conversations are not duplicated across the tools. The decision to have three different options represents the communities desire to reach people in whatever tool they prefer.
+Slack, Discord, and IRC are available to the community for participants at all roles, including users. These are all distinct "chat" options, the conversations are not duplicated across the tools. The decision to have three different options represents the community's desire to reach people in whatever tool they prefer.
 
 ## Infrastructure audit
 | Activity | Tool Used | Tool Location | Target Project Role | Notes |
