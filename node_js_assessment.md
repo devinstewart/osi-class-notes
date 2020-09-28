@@ -12,7 +12,7 @@ Understanding the Node.js governance model becomes easier when one understand's 
 - Ryan Dahl first created Node.js in 2009. In November 2010, he announced that he had reached an agreement with Joyent to handle its governance.
 - In December 2014, due to an internal conflict over Joyent's governance, a group of developers decided fork Node.js and release it as io.js. io.js was created as an open governance alternative with a separate technical committee. Unlike Node.js, the authors planned to keep io.js up to date with the latest releases of the Google V8 JavaScript engine.
 - In February 2015, the intent to form a neutral Node.js Foundation was announced. By June 2015, the Node.js and io.js communities voted to work together under the Node.js Foundation.
-- In September 2015, Node.js v0.12 and io.js v3.3 merged into Node v4.0. This released introduced the project's governance model to the average Node.js user.
+- In September 2015, Node.js v0.12 and io.js v3.3 merged into Node v4.0. This release introduced the project's governance model to the average Node.js user.
 - In 2019, the JS Foundation and Node.js Foundation merged to form the OpenJS Foundation. Under the OpenJS Foundation, Node.js is one of many projects (30 at last count). It is listed as one of their six "Impact Projects." The over five are: Appium, jQuery, Dojo, Electron, and webpack.
 
 ### Governance model
