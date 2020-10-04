@@ -46,6 +46,7 @@ Additional detail is available in [a GitHub repository](https://github.com/nodej
 Node.js seems to have a reputation as a project with a "[liberal contribution model](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)" (as noted above, the community considers a "contributor" anyone who has done so much as left a comment or opened an issue). Much of its project infrastructure is therefore accessible to a majority of project participants. This is why in the [Infrastructure audit](#infrastructure-audit) many of the "Target Project Roles" are listed as "All".
 
 ## Infrastructure audit
+The following audit distinguishes between infrastructural components aimed at "technical" and "social" ends. Any successful open source *project* requires tooling to facilitate distributed collaboration; any successful open source *community* requires means of communicating about and coordinating its work, sharing its accomplishments, and recruiting new contributors. The audit therefore identifies infrastructure essential to architecting a successful open source project and community.
 
 ### Technical infrastructure
 | Essential? | Activity | Tool Used | Tool Location | Target Project Role | Notes |
