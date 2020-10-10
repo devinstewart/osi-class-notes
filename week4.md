@@ -35,7 +35,13 @@ Our recommendations distinguish between infrastructural components that accompli
 ### Social infrastructure
 | Activity | Recommended Tool |
 | - | - |
-| Development and synchronous collaboration |  |
-| Support and asynchronous collaboration |  |
+| Development chat and synchronous collaboration | [Matrix](https://matrix.org/) |
+| Support and asynchronous collaboration | [Discourse](https://www.discourse.org/) |
 | Community outreach |  |
 | News and marketing |  |
+
+### Matrix for development chat and synchronous collaboration
+Developers collaborating on an open source project often require some means of real-time chat via text, audio, and/or video, especially when collaborating synchronously on a new feature or collectively assessing a security issue. Node.js did not seem to mandate (or publicize) a tool or channel for synchronous development activity, instead seeming to defer to the preferences of individual working groups and initiatives. Node2020 should adopt a unified chat platform for developer communication, one built on the open source Matrix protocol, to better connected the its developers. Access to the platform could be a perk of achieving "[Collaborator]((https://nodejs.org/en/about/community/))" status in the project. (We do recognize a significant [Node.js presence on Gitter](https://gitter.im/nodejs/home), and [Matrix just acquired Gitter](https://matrix.org/blog/2020/09/30/welcoming-gitter-to-matrix), so perhaps Node.js is already planning a move to this platform).
+
+### Discourse for support and asynchronous communication
+Node.js featured a fractured and disparate ecosystem of communication platforms for connecting with and supporting users, one that encompased familiar channels like Slack, Discord, Reddit, IRC, and more. Interstingly enough, while these platforms facilitate synchronous communication, the project (and its various working groups) utilized them largely for posting announcements (without invitation for further discussion) or addressing support requests (even those that didn't necessary unfold in real time). Node2020 should adopt a single paltform for community engagement, announcements, and support, one built on the open source Discourse tool. Adopting Discourse benefits Node2020 by offering a singular point of community support and engagement, enabling greater control over asynchronous communications tooling (Discourse features fine-grained access and moderation controls), and facilitating the construction of a robust knowledge commons, where questions and answers are more usefully logged and archived (rather than spread across platforms like [Stack Overflow](https://stackoverflow.com/questions/tagged/node.js) or lost in a Slack stream).
