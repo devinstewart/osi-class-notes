@@ -1,7 +1,7 @@
 # Final project
-Open Source Workflow and Infrastructure
-Braideis University (FA20)
-Devin Stewart
+Open Source Workflow and Infrastructure  
+Braideis University (FA20)  
+Devin Stewart  
 Bryan Behrenshausen
 
 ## Introduction: Meet Node2020
