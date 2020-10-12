@@ -1,7 +1,7 @@
 # Final project
-Open Source Workflow and Infrastructure  
-Braideis University (FA20)  
-Devin Stewart  
+Open Source Workflow and Infrastructure
+Braideis University (FA20)
+Devin Stewart
 Bryan Behrenshausen
 
 ## Introduction: Meet Node2020
@@ -16,7 +16,7 @@ Call it Node2020. Here's how we'd recommend architecting it.
 ## Priorities and parameters
 Our infrastructural recommendations aim to respect the following project priorities and parameters.
 
-**Respect foundation-backed governance.** The Node.js project's [history](https://en.wikipedia.org/wiki/Node.js#History) is complicated and winding. But it culminates in an interseting [hybrid governance model](https://www.redhat.com/en/resources/guide-to-open-source-project-governance-models-overview) involving support from a sponsoring foundation, the [OpenJS Foundation](https://openjsf.org/). Node.js features twin governing bodies: the [Technical Steering Committee (TSC)](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md), ulimate arbiter of Node.js overseeing business, legal, and technical aspects of the project, and the [Community Committee (CommComm)](https://nodejs.org/en/about/community/), which oversees implementation of the TSC's decisions regarding both technical and non-technical aspects of the project. Each of these groups establishes its own [initiatives](https://github.com/nodejs/community-committee#contributing) and [priorities](https://github.com/nodejs/TSC/blob/master/Strategic-Initiatives.md). Participants select the initiatives to which they'd like to contribute, forming working groups on a largely ad-hoc basis. Infrastructural recommendations for Node2020 presuppose this governance model.
+**Respect foundation-backed governance.** The Node.js project's [history](https://en.wikipedia.org/wiki/Node.js#History) is complicated and winding. But it culminates in an interseting [hybrid governance model](https://www.redhat.com/en/resources/guide-to-open-source-project-governance-models-overview) involving support from a sponsoring foundation, the [OpenJS Foundation](https://openjsf.org/). Node.js features twin governing bodies: the [Technical Steering Committee (TSC)](https://github.com/nodejs/TSC/blob/master/TSC-Charter.md), ulimate arbiter of Node.js overseeing business, legal, and technical aspects of the project, and the [Community Committee (CommComm)](https://nodejs.org/en/about/community/), which oversees implementation of the TSC's decisions regarding both technical and non-technical aspects of the project. Each of these groups establishes its own [initiatives](https://github.com/nodejs/community-committee#contributing) and [priorities](https://github.com/nodejs/TSC/blob/master/Strategic-Initiatives.md). Participants select the initiatives to which they'd like to contribute, forming working groups on a largely ad-hoc basis. Infrastructural recommendations for Node2020 presuppose this governance model. This document does not cover `npm` as the `npm` CLI is created by a completely different community with their own governance. The only provide the latest stable version when Node.js does a release.
 
 **Maintain the liberal contribution model.** Node.js prides itself on its "[liberal contribution model](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)." This model—more like a guiding spirit or project ethos—fosters continual infusion of new contributors to Node.js, and is critical to  ensuring project health and longevity. Node.js considers anyone who so much as comments on an outstanding project issue, opens a pull request, or participates in a conversation to be a project "[Contributor](https://nodejs.org/en/about/community/)." Becoming a contributor is the first step toward occupying additional roles (which grant additional permissions) in Node.js. Project infrastructure for Node2020 should sustain this spirit of liberal contribution, eliminanting potential hurdles to participation wherever possible.
 
@@ -29,10 +29,18 @@ Our recommendations distinguish between infrastructural components that accompli
 | Source code management (SCM) | [GitHub](github.com/) |
 | Issue tracking | [GitHub](github.com/) |
 | Documentation | [GitHub](github.com/) |
-| Build tools |  |
-| Package distribution | [npm](https://www.npmjs.com/) |
-| Security |  |
+| Build tools | A yet to be invented CI/CD system |
+| Security | [HackerOne](https://www.hackerone.com/) |
 | Project website | [Metalsmith](https://metalsmith.io/) |
+
+### All in on GitHub
+Node.js has taken an *all in on GitHub* approach. They use it for an SCM, issue tracking, and Documentation. They even go as far as having suggestions to their governance be initiated via a GitHub Pull Request. Node2020 should stay this course, as it has served them well. While there is a concern that you they would be stuck if they wanted a feature that GitHub doesn't offer, there are two things that relax our concerns there.  First, Node.js was born in the GitHub age, and have modeled there governance around its abilities. Secondly, the scale at which Node.js has grown can not be dismissed. [The NPM default repository](https://https://www.npmjs.com/) is now part of GitHub, so one would have to assume they have contacts and leverage at GitHub, should a feature be needed.
+
+### Build Tools
+Node.js uses Jenkins for its CI/CD build tool. This is because the more SaaS friendly solutions such as Travis CI or Circle CI just don't have the ability to create binaries in all the different shapes and sizes that Node.js requires. That said, Jenkins is an aging technology missing a lot of the bells and whistles of the more modern solutions. It also works in a core with lots of plugin model. In fact a look at https://ci.nodejs.org/ shows that they are behind on the version of the Jenkins core as well as a handlfull of plugins. This is why Node2020 would use the *Yet to be built* CI/CD solution along the lines of Circle CI, with all the features Node.js needs.  These solutions when becoming available are often free for open-source projects.
+
+### Security
+When deciding on essential tooling, team 2 listed security as *recommended*. This was not to imply that security was optional, but distinction in the way in which security bugs are reports versus other, even perhaps critical bugs is recommended. Node2020 would continue to use HackerOne as Node.js is doing today. This is not so much for the bounties, but for the verification of bug reports and the controlled and defined system for announcement, risk assessment, liability, and recomended actions at their appropriate times.
 
 ### Metalsmith for project website
 Metalsmith is a static site generator built on Node.js. Node2020 should utilize the same technology for building a fast and lightweight project website. This not only allows project participants to develop the site the same way they develop Node.js itself (on GitHub), but also allows the community to continuously improve a project that builds on its work, strengthening the Node project ecosystem.
