@@ -33,13 +33,13 @@ Our recommendations distinguish between infrastructural components that accompli
 | Security | [HackerOne](https://www.hackerone.com/) |
 | Project website | [Metalsmith](https://metalsmith.io/) |
 
-### All in on GitHub
+### GitHub for source code management, issue tracking, and documentation
 Node.js has taken an "all in on GitHub" approach. The project uses it for source code management, issue tracking, and documentation. The community even goes as far as conducting basic governance via GitHub, asking that all suggestions for modifications to project policy and procedurebe initiated via a GitHub pull request. Node2020 should stay this course, as it has served the project well to date. While this approach does raise the concern that Node2020 might become beholden to GitHub's whims, two notes relax our concerns here. First, Node.js was born in the GitHub age, and has modeled its governance around the platform's abilities. Second, the scale at which Node.js has grown cannot be dismissed. That scale (and the influence it provides) would benefit Node2020 should the project want to suggest changes to the GitHub platform. Moreover, as [the NPM default repository](https://https://www.npmjs.com/) is now part of GitHub, we assume assume the Node project would have even more leverage at GitHub, should it require implementation of a new feature.
 
-### Build Tools
+### A net-new CI/CD tool for builds
 Node.js uses Jenkins for its CI/CD build tool, because more friendly software-as-a-service solutions such as Travis CI or Circle CI just can't create binaries in all the different shapes and sizes that Node.js requires. That said, Jenkins is an aging technology missing many of the bells and whistles the more modern solutions provide. It also works in a "core-with-lots-of-plugins" model. In fact, a look at [CI documentation](https://ci.nodejs.org/) shows Node.js is *behind* a version on its implementation of Jenkins core (as well as a handlful of plugins). This is why Node2020 would use some *yet to be built* CI/CD solution along the lines of Circle CI, with all the features Node.js requires. These solutions, when finally available,are often free of charge for open source projects.
 
-### Security
+### HackerOne for security
 When determining the Node.js project's [essential tooling](https://github.com/devinstewart/osi-class-notes/blob/master/node_js_assessment.md), Team 2 listed security as a *recommended* component. This was not to imply that security was *optional*, only to mark a distinction in the way security bugs get reported, relative to other types of bugs (perhaps even critical ones). Node2020 would continue to use HackerOne, just as Node.js does today. The reason for this is not so much the availability of bounties, but rather the ability to verify bug reports and access a controlled and defined system for announcement, risk assessment, liability, and recomended actions at their appropriate times.
 
 ### Metalsmith for project website
